@@ -89,18 +89,33 @@ print(f"Eager execution time: {eager_time} seconds")
 # 2. Graph Execution (Compiled)
 # torch.compile uses the inductor backend, which doesn't support MPS yet
 
-# This 'traces' the function and optimizes the kernels
-compiled_f = torch.compile(f)
-# First call triggers the compilation (slower), subsequent calls are fast
-start_time = time.time()
-_ = compiled_f(x)
-graph_time = time.time() - start_time
-print(f"Graph execution time: {graph_time} seconds")
+# # This 'traces' the function and optimizes the kernels
+# compiled_f = torch.compile(f)
+# # First call triggers the compilation (slower), subsequent calls are fast
+# start_time = time.time()
+# _ = compiled_f(x)
+# graph_time = time.time() - start_time
+# print(f"Graph execution time: {graph_time} seconds")
 
 
 # Task 3: Framework comparison in code
 # TODO: Using scikit-learn, load the iris dataset
+from sklearn.datasets import load_iris
+data = load_iris()
+
+X = data.data
+y = data.target
+
+print(X)
+print(y)
+
 # TODO: Train a LogisticRegression model
+from sklearn.linear_model import LogisticRegression
+
+model = LogisticRegression(max_iter=3000)
+model.fit(X,y)
+print(model.score(X,y))
+
 # TODO: Train a tiny MLP (MLPClassifier) on the same data
 # TODO: Compare accuracy and write 3-5 comments in code about:
 # - speed

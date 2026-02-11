@@ -53,3 +53,8 @@ logs/
 wandb/
 
 *SOLUTION.py
+*.png
+/data/
+
+### L6 assignment output ###
+L6/output/

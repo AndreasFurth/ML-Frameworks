@@ -3,7 +3,7 @@
 ## 0. Install DVC
 ```bash
 pip install dvc # or: brew install dvc
-uv tool install "dvc[all]"
+uv tool install "dvc[s3]"
 ```
 
 ## 1. Initialize DVC

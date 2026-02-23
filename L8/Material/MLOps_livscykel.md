@@ -28,7 +28,7 @@ Rent konkret:
 - Systematisera versionshantering av data (t.ex DVC)
 - För vårt problem:
     - Sätta upp en ETL-pipline från rå GPS-data, och externa markdatafiler till ett användbart format i en databas
-    - Ideallt kanske vi använder ett data warehouse (specialliserad ändamålsenlig databas)
+    - Ideallt kanske vi använder ett data warehouse (specialiserad ändamålsenlig databas)
     - Vi skulle kunna använda Fivetran för att automatisera hämtandet av datan
 
 ## 3. Experimentation

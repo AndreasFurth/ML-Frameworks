@@ -62,6 +62,9 @@ Rent konkret:
 - Vi packeterar modellen (t.ex med docker), och sätter upp deploymentschemes
 - Alltså: hur görs modellen tillgänglig i produktion? 
 - Ett vanligt sätt är att när vi mergar till main (i git), så depolyar vi automatiskt
+- Det gör ofta med t.ex Github Actions
+För vårt problem: 
+- Vi deployar vår modell mha github actions via en Dockercontainer till EC2 (Elastic compute cloud)
 
 ## 6. Monitoring
 - Drift detection, performance metrics

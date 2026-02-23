@@ -37,7 +37,7 @@ Rent konkret:
 Rent konkret:
 - Vi bygger (i regel) notebooks, med massa EDA, experiment, visualiseringar
 - Här är det bra att ordentligt sätta upp återskapningsbara miljöer/modeller osv
-För vårt problem:
+- För vårt problem:
 - Vi läser in datan från Data Warehouset in i en notebook
 - Vi skapar relevanta .py-filer (för träning av modeller etc)
 - Vi läser in funktioner från våra .py-filer

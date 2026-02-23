@@ -57,7 +57,7 @@ För vårt problem:
 
 ## 5. Packaging & deployment
 - Package models (Docker, TorchScript, ONNX)
-- CI/CD for model artifacts
+- CI/CD for model artifact
 Rent konkret:
 - Vi packeterar modellen (t.ex med docker), och sätter upp deploymentschemes
 - Alltså: hur görs modellen tillgänglig i produktion? 

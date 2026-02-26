@@ -59,6 +59,6 @@ wandb/
 ### L6 assignment output ###
 L6/output/
 L6/data
-/data
+*/data
 
 *.json
